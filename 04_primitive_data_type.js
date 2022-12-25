@@ -14,7 +14,7 @@ let h = undefined
 console.log(a,b,c,d,e,f,g,h)
 console.log(typeof c)
 
-
+// object creation in js
 const item = {
   "Rushil" : true,
   "Martin": false,
