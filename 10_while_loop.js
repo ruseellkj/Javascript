@@ -14,7 +14,7 @@ while(i<n){
 let n = prompt("Enter the value of n")
 n = Number.parseInt(n)
 
-let i = 10;
+let i = 10
 do{
   console.log(i)
   i++;
