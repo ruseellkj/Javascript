@@ -9,6 +9,6 @@ const sum = (a,b)=>{
     return c
 }
 
-
+hello();
 let y = sum(1,3)
 console.log(y)

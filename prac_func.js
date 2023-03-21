@@ -23,3 +23,11 @@ while(i!=cn){
     i = prompt("enter a number")
 }
 console.log("you have entered the correct number")
+
+
+const mean = (a,b,c,d) =>{
+    return (a+b+c+d)/4
+}
+
+let x = mean(4,5,6,7)
+console.log(x)
