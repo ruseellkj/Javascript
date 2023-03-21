@@ -1,5 +1,5 @@
 const new_array = [1,2,3,4,5,6,7,8,9]
-let i =0
+// let i =0
 for(i =0; i<new_array.length; i++){
     console.log(new_array[i])
 }
