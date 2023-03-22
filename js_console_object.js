@@ -1,4 +1,4 @@
-// console is an obeject and it has various methods 
+// console is an object and it has various methods 
 // like log , table, clea etc
 let obj = {a: 1, b: 2, c:3}
 console.table(obj)
