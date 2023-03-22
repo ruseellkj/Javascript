@@ -26,7 +26,7 @@
 
 let age = prompt("enter your age")
 age = Number.parseInt(age)
-let runagain = true;
+let runagain = true
 
 while(runagain){
     if(age < 0){
