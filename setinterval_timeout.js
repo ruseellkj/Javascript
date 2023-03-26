@@ -40,5 +40,5 @@ const prod = (a,b,c) =>{
     alert("welcome to the new world!" , (a*b*c))
 }
 
-setInterval(prod, 2000, 1,3,6)
-
+let x = setInterval(prod, 2000, 1,3,6)
+console.log(s)
