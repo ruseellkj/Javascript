@@ -68,11 +68,11 @@ let jokes = ["Why don't grasshoppers watch football? They prefer cricket!",
 
 
   const myfunction = () =>{
-    let output = document.getElementById("output")
+    let out = document.getElementById("output")
     // this line generates random jokes out of 35 jokes array
     let rand_jokes = Math.ceil(Math.random() * 35)
     console.log(jokes[rand_jokes])
-    output.innerHTML = jokes[rand_jokes]
+    out.innerHTML = jokes[rand_jokes]
 
 
   }

@@ -51,4 +51,3 @@ while (playagain) {
   }
   playagain = confirm("do u want to play again and win the game ?")
 }
-
