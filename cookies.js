@@ -15,3 +15,8 @@ document.cookie = "name=rushil02"
 document.cookie = "name1=siddhi20"
 document.cookie = "name=rush09" //here the name will be replaced from rushil02 to rush09
 console.log(document.cookie)
+
+let key = prompt("enter your key")
+let value = prompt("enter your value")
+document.cookie = `${encodeURIComponent(key)}=${encodeURIComponent(value)}`
+console.log(document.cookie)
