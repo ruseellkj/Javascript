@@ -18,5 +18,8 @@ console.log(document.cookie)
 
 let key = prompt("enter your key")
 let value = prompt("enter your value")
+// encodeURIComponent is used to enter $%: etc as a string
+// so it encodes into a special type  ex: %d%d%d
+// and use decodeURIComponent to see what we have set the key for the cookie
 document.cookie = `${encodeURIComponent(key)}=${encodeURIComponent(value)}`
 console.log(document.cookie)
