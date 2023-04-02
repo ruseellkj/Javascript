@@ -16,11 +16,12 @@ const loadscript = async (src) => {
     })
 
 }
-
+// alternate method to do
 let a = await loadscript("https://cdn.javascript")
 a.then((value) =>{
     console.log(value)
 })
+
 // const main1 = async () =>{
 //     console.log(new Date().getMilliseconds())
 //     let a = await loadscript("https://cdn.javascript/rushil")
