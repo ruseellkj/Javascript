@@ -15,4 +15,6 @@ f['name'] = 'Jack'
 console.log(f)
 // console.log(f['name']) 
 // or
+
+// in python we need to write .get 
 console.log(f.name)

@@ -1,4 +1,4 @@
-console.log("this is the fourth video on javascript")
+console.log("this is the fourth video on how to master javascript")
 
 
 // nn bb ss u - Primitive data types in js ( total 7 )
@@ -16,13 +16,15 @@ console.log(typeof c)
 
 // object creation in js
 const item = {
-  "Rushil" : true,
-  "Martin": false,
-  "Meta" : 55,
+  name: "Rushil",
+  ph_no: 123456789,
+  marks : 97,
   "Yash" : undefined
 }
 
-console.log(item["Rushil"])
+// it is similar to python
+console.log(item["name"])
 
 
 // Object is basically non-primitive data type or key-value pair
+// just like dictionary in python

@@ -11,6 +11,6 @@ console.log(c)
 
 
 // var is globally scoped while let and const are block scoped 
-// var can be updated and re-declare 
-// let can be only updated but not re-declare
-// const can neither be updated nor re-declare
+// var can be updated and re-declared
+// let can be only updated but not re-declared
+// const can neither be updated nor re-declared

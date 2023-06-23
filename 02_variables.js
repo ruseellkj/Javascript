@@ -7,5 +7,5 @@ console.log(a)
 
 let c = 8
 console.log(c)
-c = "Rushil"
+c = 89.76
 console.log(c)
