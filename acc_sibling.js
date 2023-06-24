@@ -3,3 +3,9 @@ a = document.body.firstChild
 console.log(a.parentNode)
 console.log(a.parentElement)
 console.log(a.firstChild.nextSibling)
+
+
+// nextSibling
+// previousSibling
+// parentNode
+// parentElement

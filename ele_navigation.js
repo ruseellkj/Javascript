@@ -8,3 +8,9 @@ console.log("first element child of b is", b.firstElementChild) // element that 
 
 document.children
 // childElementNodes = children
+
+
+// firstElementChild
+// lastElementChild
+// previousElementSibling
+// nextElementSibling

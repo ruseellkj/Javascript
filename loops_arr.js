@@ -14,6 +14,7 @@ let name = "Harry"
 let arr = Array.from(name)
 console.log(arr)
 
+// best to use
 // for...of 
 for (let item of num){
   console.log(item)

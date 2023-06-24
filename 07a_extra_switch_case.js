@@ -1,4 +1,4 @@
-let day = prompt("Enter a day")
+let day = 'Cryday'
 switch(day){
   case 'Monday':
     console.log("It is a Working day")
@@ -19,5 +19,6 @@ switch(day){
     console.log("It is not a holiday , pls work accordingly")
     break
   default:
-    console.log("Enter a valid day")
+    // it is just like fstring in python
+    console.log(`Sorry, The {day} u provided doesn't exists`)
 }

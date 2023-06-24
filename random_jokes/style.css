@@ -17,13 +17,13 @@ html, body {
   .box{
     height: 70%;
     width : 50% ;
-    background-color: purple;
-    background-color: #760476 ;
-    border: 2px solid whitesmoke;
+    /* background-color: purple; */
+    background-color: #683206 ;
+    border: 2px solid #683206;
     border-radius: 25px;
   }
   .sec1{
-    height: 70%;
+    height: 60%;
     color: white;
     display: flex;
     justify-content: center;
@@ -36,19 +36,19 @@ html, body {
     align-items: center;
   }
   button{
-    height: 60%;
-    width: 30%;
-    background-color: blue;
-    color: whitesmoke;
+    height: 50%;
+    width: 27%;
+    background-color: rgb(255, 232, 157);
+    color: black;
     border: none;
     border-radius: 30px;
     font-size: 1.5rem;
   }
   button:active{
-    height: 58%;
+    height: 55%;
     width: 28%;
     font-size: 1.3rem;
   }
   p{
-    padding: 0px 25px;
+    /* padding: 0px 25px; */
   }

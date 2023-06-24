@@ -9,7 +9,7 @@ alert("are u ready for the game of snake,water and gun ? ")
 // let user = prompt("enter w for water, s for snake and g for gun")
 while (playagain) {
   let user = prompt("enter w for water, s for snake and g for gun")
-  let comp = char[Math.floor(Math.random() * 3)];
+  let comp = char[Math.floor(Math.random() * char.length)];
   if (comp == 's' && user == 'w') {
     alert(`computer win! you loose`)
     comp_points++
