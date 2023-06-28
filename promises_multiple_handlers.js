@@ -1,6 +1,7 @@
 let p1 = new Promise((resolve, reject) => {
     // alert("Hey I am not resolved")
     setTimeout(() => {
+        console.log("Promise is pending")
             resolve(1);
     }, 2000)
 })
@@ -18,7 +19,17 @@ p1.then(() => {
 
 p1.then(() => {
     console.log("Congratulations this promise is now resolved")
+    return new Promise((resolve,reject) => {
+        setTimeout(() =>{
+            resolve(8)
+        }, 5000)
+    })
+}).then((value) =>{
+    console.log(value)
 })
+
+
 p1.then(() => {
     console.log("yes im rushil")
 })
+

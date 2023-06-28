@@ -27,7 +27,7 @@ console.log(s)
 //  console.log(a)
 
 
-
+ 
 // setInterval(function (){
 //     alert("hello this is macbook pro 16' ")
 // }, 3000);
@@ -36,9 +36,9 @@ console.log(s)
 // now using setinterval by a function 
 
 
-const prod = (a,b,c) =>{
+const product = (a,b,c) =>{
     alert("welcome to the new world!" , (a*b*c))
 }
 
-let x = setInterval(prod, 2000, 1,3,6)
-console.log(s)
+let x = setInterval(product, 2000, 1,3,6)
+console.log(x)

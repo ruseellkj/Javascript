@@ -18,6 +18,6 @@
 
 
 
-setInterval(async function() {
+setInterval(function() {
     document.querySelector("#bulb").classList.toggle("bulb")
   }, 300)

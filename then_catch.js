@@ -22,8 +22,8 @@ let p2 = new Promise((resolve, reject) => {
 })
 
 // To get the value
-p1.then((value) => {
-    console.log(value)
+p1.then((value) =>{
+    console.log(value);
 })
 
 // To catch the errors

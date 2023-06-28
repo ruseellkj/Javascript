@@ -19,3 +19,14 @@ console.log(promise)
 // Fetch pictures from the server 
 // Print downloading 
 // Rest of the script 
+
+// promise constructor returns promise objects that has 2 properties 
+// 1. state
+// 2. result
+
+//         fulfilled 
+//         /     \
+//        /       \
+//       /         \
+//    resolved   reject
+
