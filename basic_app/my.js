@@ -1,3 +1,5 @@
+let ele = document.getElementById("cardContainer")
+
 let url = "https://kontests.net/api/v1/all"
 let response = fetch(url)
 response.then((v) => {
@@ -21,7 +23,7 @@ response.then((v) => {
                         </div>
                 `
         }
-        cardContainer.innerHTML = ihtml
+        ele.innerHTML = ihtml
 })
 
 /* ******************* NOTES APP (REMAINING QUESTIONS OF PRACTICE SET) *********** */

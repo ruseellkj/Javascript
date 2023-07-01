@@ -2,7 +2,7 @@
 // if we overwrite a cookie it doesnt get deleted instead it overwrites it
 
 // to access the cookie write this
-// alert(document.cookie) --> it contains a key value pair and each cookie is separatedn by ;
+// alert(document.cookie) --> it contains a key value pair and each cookie is separated by ;
 // or 
 // console.log(document.cookie)
 

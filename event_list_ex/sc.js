@@ -18,7 +18,7 @@ function eventListener() {
 function addListener() {
   buttonToBeClicked.addEventListener("click", eventListener, {
     passive: true,
-    // once: true,
+    once: true,
   });
 }
 

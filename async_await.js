@@ -6,7 +6,7 @@
 // ki bhai meh data lekar aa rha hu , tab tak wait karo jaise hi data aa jayega meh resolve kar dunga
 
 
-async function harry() {
+const harry = async () =>{
     let delhiWeather = new Promise((resolve, reject) => {
             setTimeout(() => {
                     resolve("27 Deg")

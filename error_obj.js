@@ -10,4 +10,4 @@ try {
     console.log(error.stack)
 }
 
-console.log("The script is still running")
+console.log("The script is still running") 

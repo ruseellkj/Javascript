@@ -6,7 +6,7 @@ const loadscript = async (src) => {
     return new Promise((resolve, reject) => {
         let script = document.createElement('script')
         script.src = src
-        script.onlaod = (script) => {
+        script.onload = () => {
             resolve("the script is successfully loaded" + src)
         }
         script.onerror = () => {
@@ -17,21 +17,21 @@ const loadscript = async (src) => {
 
 }
 // alternate method to do
-let a = loadscript("https://cdn.javascript")
-a.then((value) => {
-    console.log(value)
-})
+// let a = loadscript("https://cdn.javascript")
+// a.then((value) => {
+//     console.log(value)
+// })
 
-// const main1 = async () =>{
-//     console.log(new Date().getMilliseconds())
-//     let a = await loadscript("https://cdn.javascript/rushil")
-//     console.log(a)
-//     console.log(new Date().getMilliseconds())
-// }
-// main1()
+const main1 = async () =>{
+    console.log(new Date().getMilliseconds())
+    let a = await loadscript("https://cdn.javascript/rushil")
+    console.log(a)
+    console.log(new Date().getMilliseconds())
+}
+main1()
 
 // problem number 3
-let p = () => {
+let p = async () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             reject(new Error("this will not work as it is rejected"))
@@ -45,7 +45,7 @@ let a1 = async () => {
         console.log(c)
     } catch (error) {
         console.log(error)
-        or
+        // or
         console.log("this error has been handled")
     }
 }
@@ -82,7 +82,7 @@ const run = async () =>{
     // let a2 = await p2()
     // let a3 = await p3()
 
-    let a1 = p1()
+    let a1 = p1() 
     let a2 = p2()
     let a3 = p3()
 
