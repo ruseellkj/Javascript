@@ -6,8 +6,10 @@ export const ahello = (name) =>{
     console.log("hello " + name)
 }
 
-const rushil = () =>{
+export default () =>{
     console.log("hello " + "rushil")
 }
 
-export default rushil;
+export function xyz(){
+    console.log("hey there")
+}
